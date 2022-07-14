@@ -1,0 +1,180 @@
+body {
+  background-color: #202124;
+  height: 100vh;
+  max-height: 100vh;
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 6px;
+  padding-right: 10px;
+}
+
+.profile {
+  -webkit-background-size: 32px 32px;
+  background-size: 32px 32px;
+  border: 0;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  margin: 0px;
+  position: relative;
+  height: 32px;
+  width: 32px;
+  z-index: 0;
+}
+
+nav div {
+  padding: 6px;
+  margin: 4px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.nav-link:nth-child(2) {
+  padding-right: 15px;
+}
+
+.nav-img:hover {
+  background-color: #303134;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+}
+
+.search-bar {
+  display: flex;
+  border: 1px solid #5f6368;
+  border-radius: 40px;
+  width: 600px;
+  flex-wrap: wrap;
+  padding: 7px;
+  background-color: #202124;
+  margin-top: 40px;
+  box-shadow: -3px 3px 13px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -3px 3px 13px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -3px 3px 13px 0px rgba(0, 0, 0, 0.4);
+}
+
+.search-bar:hover {
+  background-color: #303134;
+  border: 1px solid #202124 !important;
+}
+
+.icon {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.main-logo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: calc(100vh - 200px);
+}
+
+input {
+  all: unset;
+  color: #ffffff;
+  width: 87%;
+  padding-left: 5px;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.goxjub:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+button {
+  all: unset;
+  background-color: #303134;
+  padding: 8px 15px 8px 15px;
+  border-radius: 4px;
+  font-size: 15px;
+  border: 1px solid #202124;
+  margin: 3px;
+}
+
+button:hover {
+  border: 1px solid #5f6368;
+  cursor: pointer;
+}
+
+.google-offer {
+  margin-top: 30px;
+}
+
+.lang {
+  color: #8ab4f8;
+}
+
+.lang:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #171717;
+  color: #999da1;
+  width: 100%;
+}
+
+.location {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-bottom: 1px solid #3c4043;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+}
+
+.link div {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.link div:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
